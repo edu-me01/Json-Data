@@ -1,0 +1,447 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ahmed Mohamed",
+      "email": "ahmed.mohamed@realestate.com",
+      "phone": "+20 100 123 4567",
+      "profileImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      "bio": "Professional real estate agent with over 10 years of experience in the Egyptian real estate market. Specialized in luxury and investment properties.",
+      "address": {
+        "street": "Nile Street",
+        "city": "Cairo",
+        "state": "Heliopolis",
+        "zipCode": "11341",
+        "country": "Egypt"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Fatima Ali",
+      "email": "fatima.ali@realestate.com",
+      "phone": "+20 101 234 5678",
+      "profileImageUrl": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
+      "bio": "Real estate expert in residential apartments and villas. Helps clients find their perfect homes.",
+      "address": {
+        "street": "Maadi Street",
+        "city": "Cairo",
+        "state": "Maadi",
+        "zipCode": "11431",
+        "country": "Egypt"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mohamed Hassan",
+      "email": "mohamed.hassan@realestate.com",
+      "phone": "+20 102 345 6789",
+      "profileImageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+      "bio": "Real estate agent specialized in commercial properties and offices. 8 years of experience in real estate investment.",
+      "address": {
+        "street": "Tahrir Street",
+        "city": "Cairo",
+        "state": "Downtown",
+        "zipCode": "11511",
+        "country": "Egypt"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "title": "Luxury Villa in Sheikh Zayed",
+      "description": "Modern villa with stunning views of green gardens, featuring 4 bedrooms, 3 bathrooms, open kitchen, and private garden",
+      "type": "Villa",
+      "status": "For Sale",
+      "price": 8500000,
+      "currency": "Egyptian Pound",
+      "area": 450,
+      "areaUnit": "Square Meters",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "floors": 2,
+      "yearBuilt": 2022,
+      "location": {
+        "street": "Palm Street",
+        "city": "New Cairo",
+        "state": "Sheikh Zayed",
+        "zipCode": "12588",
+        "country": "Egypt"
+      },
+      "amenities": ["Private Pool", "Elevator", "Parking", "Garden", "Security System", "Central AC"],
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+      "agentId": 1,
+      "rating": 4.8,
+      "views": 1250,
+      "favorites": 89
+    },
+    {
+      "id": 2,
+      "title": "Premium Apartment in Maadi",
+      "description": "Elegant apartment in the heart of Maadi with Nile views, featuring 2 bedrooms, 2 bathrooms, and fully equipped kitchen",
+      "type": "Apartment",
+      "status": "For Rent",
+      "price": 12000,
+      "currency": "Egyptian Pound",
+      "area": 120,
+      "areaUnit": "Square Meters",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "floors": 8,
+      "yearBuilt": 2020,
+      "location": {
+        "street": "Nile Street",
+        "city": "Cairo",
+        "state": "Maadi",
+        "zipCode": "11431",
+        "country": "Egypt"
+      },
+      "amenities": ["Nile View", "Elevator", "Parking", "Security System", "Air Conditioning"],
+      "images": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+      "agentId": 2,
+      "rating": 4.6,
+      "views": 890,
+      "favorites": 45
+    },
+    {
+      "id": 3,
+      "title": "Commercial Office in Downtown",
+      "description": "Luxury commercial office in the heart of downtown, suitable for companies and institutions, 200 square meters",
+      "type": "Commercial Office",
+      "status": "For Sale",
+      "price": 3500000,
+      "currency": "Egyptian Pound",
+      "area": 200,
+      "areaUnit": "Square Meters",
+      "bedrooms": 0,
+      "bathrooms": 2,
+      "floors": 12,
+      "yearBuilt": 2018,
+      "location": {
+        "street": "Tahrir Street",
+        "city": "Cairo",
+        "state": "Downtown",
+        "zipCode": "11511",
+        "country": "Egypt"
+      },
+      "amenities": ["Elevator", "Parking", "Security System", "Central AC", "High-Speed Internet"],
+      "images": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+      "agentId": 3,
+      "rating": 4.5,
+      "views": 650,
+      "favorites": 23
+    },
+    {
+      "id": 4,
+      "title": "Duplex in Nasr City",
+      "description": "Luxury duplex in Nasr City, featuring 3 bedrooms, 4 bathrooms, open kitchen, and large terrace",
+      "type": "Duplex",
+      "status": "For Sale",
+      "price": 6500000,
+      "currency": "Egyptian Pound",
+      "area": 280,
+      "areaUnit": "Square Meters",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "floors": 2,
+      "yearBuilt": 2021,
+      "location": {
+        "street": "Abbas El Akkad Street",
+        "city": "Cairo",
+        "state": "Nasr City",
+        "zipCode": "11371",
+        "country": "Egypt"
+      },
+      "amenities": ["Large Terrace", "Elevator", "Parking", "Garden", "Security System", "Air Conditioning"],
+      "images": [
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "agentId": 1,
+      "rating": 4.7,
+      "views": 1100,
+      "favorites": 67
+    },
+    {
+      "id": 5,
+      "title": "Studio Apartment in Zamalek",
+      "description": "Elegant studio apartment in Zamalek, suitable for young professionals, with Nile views",
+      "type": "Studio",
+      "status": "For Rent",
+      "price": 8000,
+      "currency": "Egyptian Pound",
+      "area": 65,
+      "areaUnit": "Square Meters",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "floors": 6,
+      "yearBuilt": 2019,
+      "location": {
+        "street": "Zamalek Street",
+        "city": "Cairo",
+        "state": "Zamalek",
+        "zipCode": "11211",
+        "country": "Egypt"
+      },
+      "amenities": ["Nile View", "Elevator", "Parking", "Security System"],
+      "images": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-6033e3e7c1e5?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+      "agentId": 2,
+      "rating": 4.4,
+      "views": 720,
+      "favorites": 38
+    },
+    {
+      "id": 6,
+      "title": "Villa in North Coast",
+      "description": "Luxury beachfront villa in North Coast, featuring 5 bedrooms, 6 bathrooms, private pool, and private beach",
+      "type": "Beach Villa",
+      "status": "For Sale",
+      "price": 15000000,
+      "currency": "Egyptian Pound",
+      "area": 600,
+      "areaUnit": "Square Meters",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "floors": 3,
+      "yearBuilt": 2023,
+      "location": {
+        "street": "Beach Street",
+        "city": "Marsa Matrouh",
+        "state": "North Coast",
+        "zipCode": "51511",
+        "country": "Egypt"
+      },
+      "amenities": ["Private Pool", "Private Beach", "Elevator", "Parking", "Garden", "Security System", "Central AC"],
+      "images": [
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "agentId": 1,
+      "rating": 4.9,
+      "views": 2100,
+      "favorites": 156
+    },
+    {
+      "id": 7,
+      "title": "Commercial Shop in Heliopolis",
+      "description": "Commercial shop on a main street in Heliopolis, suitable for restaurants and retail stores",
+      "type": "Commercial Shop",
+      "status": "For Sale",
+      "price": 2800000,
+      "currency": "Egyptian Pound",
+      "area": 150,
+      "areaUnit": "Square Meters",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "floors": 1,
+      "yearBuilt": 2015,
+      "location": {
+        "street": "Nuzha Street",
+        "city": "Cairo",
+        "state": "Heliopolis",
+        "zipCode": "11341",
+        "country": "Egypt"
+      },
+      "amenities": ["Parking", "Security System", "Air Conditioning"],
+      "images": [
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
+      "agentId": 3,
+      "rating": 4.3,
+      "views": 450,
+      "favorites": 18
+    },
+    {
+      "id": 8,
+      "title": "Apartment in Fifth Settlement",
+      "description": "Modern apartment in Fifth Settlement, featuring 3 bedrooms, 2 bathrooms, open kitchen, and shared garden",
+      "type": "Apartment",
+      "status": "For Rent",
+      "price": 15000,
+      "currency": "Egyptian Pound",
+      "area": 140,
+      "areaUnit": "Square Meters",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "floors": 5,
+      "yearBuilt": 2022,
+      "location": {
+        "street": "Tessaeen Street",
+        "city": "New Cairo",
+        "state": "Fifth Settlement",
+        "zipCode": "11835",
+        "country": "Egypt"
+      },
+      "amenities": ["Shared Garden", "Elevator", "Parking", "Security System", "Air Conditioning"],
+      "images": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+      "agentId": 2,
+      "rating": 4.6,
+      "views": 980,
+      "favorites": 52
+    },
+    {
+      "id": 9,
+      "title": "Villa in Ain Sokhna",
+      "description": "Luxury villa in Ain Sokhna, featuring 4 bedrooms, 5 bathrooms, private pool, and sea views",
+      "type": "Beach Villa",
+      "status": "For Sale",
+      "price": 12000000,
+      "currency": "Egyptian Pound",
+      "area": 500,
+      "areaUnit": "Square Meters",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "floors": 2,
+      "yearBuilt": 2021,
+      "location": {
+        "street": "Red Sea Street",
+        "city": "Ain Sokhna",
+        "state": "Suez",
+        "zipCode": "43511",
+        "country": "Egypt"
+      },
+      "amenities": ["Private Pool", "Sea View", "Elevator", "Parking", "Garden", "Security System"],
+      "images": [
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "agentId": 1,
+      "rating": 4.8,
+      "views": 1800,
+      "favorites": 134
+    },
+    {
+      "id": 10,
+      "title": "Apartment in New Maadi",
+      "description": "Elegant apartment in New Maadi, featuring 2 bedrooms, 2 bathrooms, open kitchen, and terrace",
+      "type": "Apartment",
+      "status": "For Rent",
+      "price": 10000,
+      "currency": "Egyptian Pound",
+      "area": 100,
+      "areaUnit": "Square Meters",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "floors": 10,
+      "yearBuilt": 2020,
+      "location": {
+        "street": "New Maadi Street",
+        "city": "Cairo",
+        "state": "New Maadi",
+        "zipCode": "11431",
+        "country": "Egypt"
+      },
+      "amenities": ["Terrace", "Elevator", "Parking", "Security System", "Air Conditioning"],
+      "images": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+      "agentId": 2,
+      "rating": 4.5,
+      "views": 750,
+      "favorites": 41
+    },
+    {
+      "id": 11,
+      "title": "Office in Nasr City",
+      "description": "Commercial office in Nasr City, suitable for startups and small businesses",
+      "type": "Commercial Office",
+      "status": "For Sale",
+      "price": 2200000,
+      "currency": "Egyptian Pound",
+      "area": 120,
+      "areaUnit": "Square Meters",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "floors": 8,
+      "yearBuilt": 2019,
+      "location": {
+        "street": "Abbas El Akkad Street",
+        "city": "Cairo",
+        "state": "Nasr City",
+        "zipCode": "11371",
+        "country": "Egypt"
+      },
+      "amenities": ["Elevator", "Parking", "Security System", "Air Conditioning", "Internet"],
+      "images": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
+      "agentId": 3,
+      "rating": 4.4,
+      "views": 520,
+      "favorites": 19
+    },
+    {
+      "id": 12,
+      "title": "Villa in Shorouk",
+      "description": "Luxury villa in Shorouk, featuring 5 bedrooms, 6 bathrooms, private pool, and large garden",
+      "type": "Villa",
+      "status": "For Sale",
+      "price": 9500000,
+      "currency": "Egyptian Pound",
+      "area": 550,
+      "areaUnit": "Square Meters",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "floors": 3,
+      "yearBuilt": 2022,
+      "location": {
+        "street": "Shorouk Street",
+        "city": "New Cairo",
+        "state": "Shorouk",
+        "zipCode": "11837",
+        "country": "Egypt"
+      },
+      "amenities": ["Private Pool", "Large Garden", "Elevator", "Parking", "Security System", "Central AC"],
+      "images": [
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "agentId": 1,
+      "rating": 4.7,
+      "views": 1400,
+      "favorites": 98
+    }
+  ]
+} 

@@ -1,0 +1,264 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Johnson",
+      "email": "sarah.johnson@healthcare.com",
+      "phone": "+1 (555) 123-4567",
+      "profileImageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
+      "bio": "Experienced cardiologist with over 15 years of practice. Specialized in interventional cardiology and preventive care. Committed to providing personalized patient care with the latest medical technologies.",
+      "address": {
+        "street": "123 Medical Center Drive",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62701",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dr. Michael Chen",
+      "email": "michael.chen@healthcare.com",
+      "phone": "+1 (555) 234-5678",
+      "profileImageUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
+      "bio": "Board-certified orthopedic surgeon specializing in sports medicine and joint replacement surgery. Dedicated to helping patients return to active lifestyles.",
+      "address": {
+        "street": "456 Health Plaza",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Rodriguez",
+      "email": "emily.rodriguez@healthcare.com",
+      "phone": "+1 (555) 345-6789",
+      "profileImageUrl": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop&crop=face",
+      "bio": "Pediatrician with 12 years of experience caring for children from birth through adolescence. Passionate about preventive care and family health education.",
+      "address": {
+        "street": "789 Children's Way",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zipCode": "53202",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Dr. James Wilson",
+      "email": "james.wilson@healthcare.com",
+      "phone": "+1 (555) 456-7890",
+      "profileImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      "bio": "Neurologist specializing in stroke treatment and neurological disorders. Expert in advanced diagnostic techniques and treatment protocols.",
+      "address": {
+        "street": "321 Brain Health Center",
+        "city": "Detroit",
+        "state": "MI",
+        "zipCode": "48201",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Dr. Lisa Thompson",
+      "email": "lisa.thompson@healthcare.com",
+      "phone": "+1 (555) 567-8901",
+      "profileImageUrl": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=400&fit=crop&crop=face",
+      "bio": "Dermatologist with expertise in skin cancer detection and cosmetic dermatology. Committed to providing comprehensive skin care solutions.",
+      "address": {
+        "street": "654 Skin Care Avenue",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zipCode": "55401",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Dr. Ahmed Hassan",
+      "email": "ahmed.hassan@healthcare.com",
+      "phone": "+1 (555) 678-9012",
+      "profileImageUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop&crop=face",
+      "bio": "Emergency medicine specialist with 10 years of experience in trauma care and critical care medicine. Skilled in managing complex emergency situations.",
+      "address": {
+        "street": "987 Emergency Lane",
+        "city": "Cleveland",
+        "state": "OH",
+        "zipCode": "44101",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Dr. Jennifer Park",
+      "email": "jennifer.park@healthcare.com",
+      "phone": "+1 (555) 789-0123",
+      "profileImageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
+      "bio": "Psychiatrist specializing in adult mental health and addiction treatment. Provides compassionate care with evidence-based therapeutic approaches.",
+      "address": {
+        "street": "147 Mental Health Drive",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "98101",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Dr. Robert Martinez",
+      "email": "robert.martinez@healthcare.com",
+      "phone": "+1 (555) 890-1234",
+      "profileImageUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
+      "bio": "Oncologist with expertise in cancer treatment and research. Specializes in personalized cancer care and innovative treatment protocols.",
+      "address": {
+        "street": "258 Cancer Research Blvd",
+        "city": "Houston",
+        "state": "TX",
+        "zipCode": "77001",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Dr. Maria Garcia",
+      "email": "maria.garcia@healthcare.com",
+      "phone": "+1 (555) 901-2345",
+      "profileImageUrl": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop&crop=face",
+      "bio": "Obstetrician and gynecologist providing comprehensive women's health care. Specializes in high-risk pregnancies and reproductive health.",
+      "address": {
+        "street": "369 Women's Health Circle",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "85001",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Dr. David Kim",
+      "email": "david.kim@healthcare.com",
+      "phone": "+1 (555) 012-3456",
+      "profileImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      "bio": "Radiologist with advanced training in interventional radiology. Expert in minimally invasive procedures and diagnostic imaging.",
+      "address": {
+        "street": "741 Imaging Center Road",
+        "city": "Denver",
+        "state": "CO",
+        "zipCode": "80201",
+        "country": "USA"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "serviceName": "Cardiology Consultation",
+      "shortDescription": "Comprehensive heart health evaluation and consultation with board-certified cardiologists",
+      "iconUrl": "https://img.icons8.com/color/96/000000/heart-with-pulse.png",
+      "estimatedDeliveryTime": "2-3 business days",
+      "price": 250.00,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "serviceName": "Emergency Care",
+      "shortDescription": "24/7 emergency medical services with immediate response and critical care support",
+      "iconUrl": "https://img.icons8.com/color/96/000000/emergency-call.png",
+      "estimatedDeliveryTime": "Immediate",
+      "price": 500.00,
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "serviceName": "Laboratory Testing",
+      "shortDescription": "Comprehensive blood work, urine analysis, and diagnostic testing services",
+      "iconUrl": "https://img.icons8.com/color/96/000000/test-tube.png",
+      "estimatedDeliveryTime": "1-2 business days",
+      "price": 120.00,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "serviceName": "Radiology & Imaging",
+      "shortDescription": "X-rays, MRI, CT scans, and ultrasound imaging with expert radiologist interpretation",
+      "iconUrl": "https://img.icons8.com/color/96/000000/x-ray.png",
+      "estimatedDeliveryTime": "3-5 business days",
+      "price": 350.00,
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "serviceName": "Physical Therapy",
+      "shortDescription": "Personalized rehabilitation programs for injury recovery and mobility improvement",
+      "iconUrl": "https://img.icons8.com/color/96/000000/physical-therapy.png",
+      "estimatedDeliveryTime": "1-2 weeks",
+      "price": 180.00,
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "serviceName": "Pediatric Care",
+      "shortDescription": "Specialized medical care for infants, children, and adolescents with child-friendly environment",
+      "iconUrl": "https://img.icons8.com/color/96/000000/baby-bottle.png",
+      "estimatedDeliveryTime": "1-3 business days",
+      "price": 200.00,
+      "rating": 4.8
+    },
+    {
+      "id": 7,
+      "serviceName": "Dental Services",
+      "shortDescription": "Comprehensive dental care including cleanings, fillings, and emergency dental procedures",
+      "iconUrl": "https://img.icons8.com/color/96/000000/dental-care.png",
+      "estimatedDeliveryTime": "1-2 business days",
+      "price": 150.00,
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "serviceName": "Mental Health Counseling",
+      "shortDescription": "Professional psychological support and therapy sessions with licensed therapists",
+      "iconUrl": "https://img.icons8.com/color/96/000000/psychology.png",
+      "estimatedDeliveryTime": "1 week",
+      "price": 175.00,
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "serviceName": "Surgery Consultation",
+      "shortDescription": "Pre-operative evaluation and surgical planning with experienced surgeons",
+      "iconUrl": "https://img.icons8.com/color/96/000000/surgery.png",
+      "estimatedDeliveryTime": "1-2 weeks",
+      "price": 300.00,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "serviceName": "Pharmacy Services",
+      "shortDescription": "On-site pharmacy with prescription medications and over-the-counter products",
+      "iconUrl": "https://img.icons8.com/color/96/000000/pharmacy.png",
+      "estimatedDeliveryTime": "Same day",
+      "price": 50.00,
+      "rating": 4.3
+    },
+    {
+      "id": 11,
+      "serviceName": "Nutrition Counseling",
+      "shortDescription": "Personalized dietary planning and nutritional guidance for health optimization",
+      "iconUrl": "https://img.icons8.com/color/96/000000/nutrition.png",
+      "estimatedDeliveryTime": "1 week",
+      "price": 125.00,
+      "rating": 4.5
+    },
+    {
+      "id": 12,
+      "serviceName": "Home Health Care",
+      "shortDescription": "Skilled nursing and medical care provided in the comfort of your home",
+      "iconUrl": "https://img.icons8.com/color/96/000000/home-care.png",
+      "estimatedDeliveryTime": "2-3 business days",
+      "price": 225.00,
+      "rating": 4.6
+    }
+  ]
+} 
