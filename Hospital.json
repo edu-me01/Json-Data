@@ -2,6 +2,7 @@
   "users": [
     {
       "id": 1,
+      "role": "doctor",
       "name": "Dr. Sarah Johnson",
       "email": "sarah.johnson@healthcare.com",
       "phone": "+1 (555) 123-4567",
@@ -17,6 +18,7 @@
     },
     {
       "id": 2,
+      "role": "doctor",
       "name": "Dr. Michael Chen",
       "email": "michael.chen@healthcare.com",
       "phone": "+1 (555) 234-5678",
@@ -32,6 +34,7 @@
     },
     {
       "id": 3,
+      "role": "doctor",
       "name": "Dr. Emily Rodriguez",
       "email": "emily.rodriguez@healthcare.com",
       "phone": "+1 (555) 345-6789",
@@ -47,6 +50,7 @@
     },
     {
       "id": 4,
+      "role": "doctor",
       "name": "Dr. James Wilson",
       "email": "james.wilson@healthcare.com",
       "phone": "+1 (555) 456-7890",
@@ -62,6 +66,7 @@
     },
     {
       "id": 5,
+      "role": "doctor",
       "name": "Dr. Lisa Thompson",
       "email": "lisa.thompson@healthcare.com",
       "phone": "+1 (555) 567-8901",
@@ -77,6 +82,7 @@
     },
     {
       "id": 6,
+      "role": "doctor",
       "name": "Dr. Ahmed Hassan",
       "email": "ahmed.hassan@healthcare.com",
       "phone": "+1 (555) 678-9012",
@@ -92,6 +98,7 @@
     },
     {
       "id": 7,
+      "role": "doctor",
       "name": "Dr. Jennifer Park",
       "email": "jennifer.park@healthcare.com",
       "phone": "+1 (555) 789-0123",
@@ -107,6 +114,7 @@
     },
     {
       "id": 8,
+      "role": "doctor",
       "name": "Dr. Robert Martinez",
       "email": "robert.martinez@healthcare.com",
       "phone": "+1 (555) 890-1234",
@@ -122,6 +130,7 @@
     },
     {
       "id": 9,
+      "role": "doctor",
       "name": "Dr. Maria Garcia",
       "email": "maria.garcia@healthcare.com",
       "phone": "+1 (555) 901-2345",
@@ -137,6 +146,7 @@
     },
     {
       "id": 10,
+      "role": "doctor",
       "name": "Dr. David Kim",
       "email": "david.kim@healthcare.com",
       "phone": "+1 (555) 012-3456",
@@ -147,6 +157,54 @@
         "city": "Denver",
         "state": "CO",
         "zipCode": "80201",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 11,
+      "role": "patient",
+      "name": "Ahmed Ali",
+      "email": "ahmed.ali@email.com",
+      "phone": "+1 (555) 111-2222",
+      "profileImageUrl": "https://randomuser.me/api/portraits/men/32.jpg",
+      "bio": "Patient interested in regular health checkups and wellness programs.",
+      "address": {
+        "street": "12 Main Street",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62701",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 12,
+      "role": "patient",
+      "name": "Sara Mostafa",
+      "email": "sara.mostafa@email.com",
+      "phone": "+1 (555) 333-4444",
+      "profileImageUrl": "https://randomuser.me/api/portraits/women/44.jpg",
+      "bio": "Patient seeking pediatric care for her children.",
+      "address": {
+        "street": "34 Oak Avenue",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13,
+      "role": "patient",
+      "name": "Mohamed Hassan",
+      "email": "mohamed.hassan@email.com",
+      "phone": "+1 (555) 555-6666",
+      "profileImageUrl": "https://randomuser.me/api/portraits/men/65.jpg",
+      "bio": "Patient with a history of orthopedic issues, interested in physical therapy.",
+      "address": {
+        "street": "56 Pine Road",
+        "city": "Detroit",
+        "state": "MI",
+        "zipCode": "48201",
         "country": "USA"
       }
     }
